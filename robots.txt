@@ -1,0 +1,7 @@
+# Rayate Hospital & Maternity Home
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# [placeholder] update the domain when the site goes live
+Sitemap: https://www.rayatehospital.in/sitemap.xml

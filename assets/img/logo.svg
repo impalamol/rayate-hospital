@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Rayate Hospital">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C2185B"/><stop offset="1" stop-color="#6A3FB5"/></linearGradient></defs>
+  <rect width="64" height="64" rx="18" fill="url(#g)"/>
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 -1) scale(0.94)">
+  <path d="M30 14a7 7 0 1 1 0 .01"/>
+  <path d="M23 54c-3-9-1-19 6-25 4-3 9-3 12 1 3 4 2 9-2 12"/>
+  <path d="M39 42c-5 2-10 0-12-4"/>
+  <path d="M41 30c6 1 10 7 10 14 0 8-6 14-14 14H24"/>
+  <circle cx="36" cy="38" r="4.5"/></g>
+</svg>

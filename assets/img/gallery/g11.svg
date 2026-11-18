@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="events photo">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF3E0"/><stop offset="1" stop-color="#F3E5F5"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="656" cy="96" r="176" fill="#fff" opacity=".35"/>
+  <circle cx="96" cy="540" r="144" fill="#fff" opacity=".25"/>
+  <g transform="translate(400 280) scale(1.6)" fill="none" stroke="#6A3FB5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".55"><path d="M-50-40h100v90H-50zM-50-15h100M-25-55v25m50-25v25"/><path d="M-12 20l8 8 18-18"/></g>
+</svg>

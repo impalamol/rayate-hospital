@@ -1,0 +1,339 @@
+<!doctype html>
+<!--
+  404.html — Rayate Hospital & Maternity Home
+  Text is translated from assets/js/i18n.js (data-i18n keys). Marathi is the default shown here.
+  Header, footer, appointment dialog and floating buttons are identical on every page.
+-->
+<html lang="en" data-page="404" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Page not found | Rayate Hospital</title>
+  <meta name="description" content="This page is not available. Go to the home page or call us.">
+  <meta name="keywords" content="maternity hospital Nashik, gynaecologist Nashik, Ayurveda doctor Nashik, प्रसूती हॉस्पिटल नाशिक, स्त्रीरोगतज्ज्ञ नाशिक, आयुर्वेद डॉक्टर नाशिक">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rayate Hospital &amp; Maternity Home">
+  <meta property="og:title" content="Page not found | Rayate Hospital">
+  <meta property="og:description" content="This page is not available. Go to the home page or call us.">
+  <meta property="og:url" content="https://www.rayatehospital.in/404.html">
+  <meta property="og:image" content="https://www.rayatehospital.in/assets/img/og-image.jpg"><!-- [placeholder] add a 1200×630 JPG -->
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:locale:alternate" content="mr_IN">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Theme + language before first paint (prevents flash). Defaults: light theme, English. -->
+  <script>
+    (function () {
+      var d = document.documentElement, l, t;
+      d.classList.add('js');
+      try { l = localStorage.getItem('rayate-language'); t = localStorage.getItem('rayate-theme'); } catch (e) {}
+      d.setAttribute('data-bs-theme', t === 'dark' ? 'dark' : 'light');
+      if (l === 'mr') { d.lang = 'mr'; d.classList.add('i18n-wait'); }
+      setTimeout(function () { d.classList.remove('i18n-wait'); if (!d.classList.contains('ready')) d.classList.remove('js'); }, 2500);
+    })();
+  </script>
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=JetBrains+Mono:wght@500;600&family=Mukta:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=JetBrains+Mono:wght@500;600&family=Mukta:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M3 21l1.6-4.8A9 9 0 1 1 7.9 19.4z"/><path d="M9.2 8.6c.2-.5.6-.6.9-.6h.4c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .5.5.9 1.6 2 2.7 2.5.2.1.4 0 .5-.1l.6-.7c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.3.6 0 .8-.6 1.6-1.5 1.7-2.8.4-6.7-3.4-6.7-6.1 0-.6.1-1.1.1-1.2z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+  <symbol id="i-calendar-check" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M9 16l2 2 4-4"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+  <symbol id="i-chev-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-chev-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+  <symbol id="i-chev-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z"/></symbol>
+  <symbol id="i-baby" viewBox="0 0 24 24"><path d="M9 12h.01M15 12h.01M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1"/></symbol>
+  <symbol id="i-stethoscope" viewBox="0 0 24 24"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6 6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6 6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10z"/><path d="M2 21c0-3 1.9-5.4 5.1-6C9.5 14.5 12 13 13 12"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.7 9a1 1 0 0 1-.7 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.2-2.7a1.2 1.2 0 0 1 1.5 0C14.5 3.8 17 5 19 5a1 1 0 0 1 1 1z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-activity" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+  <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.8L20 10l-6.1 1.2L12 17l-1.9-5.8L4 10l6.1-1.2z"/><path d="M19 16v5M16.5 18.5h5"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M14 8.5V6.6c0-.8.2-1.3 1.4-1.3H17V2.2C16.7 2.1 15.7 2 14.6 2 12.2 2 10.6 3.4 10.6 6.1v2.4H8v3.4h2.6V22H14V11.9h2.7l.4-3.4z"/></symbol>
+  <symbol id="i-lift" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 9l3-3 3 3M9 15l3 3 3-3"/></symbol>
+  <symbol id="i-siren" viewBox="0 0 24 24"><path d="M7 18v-6a5 5 0 1 1 10 0v6"/><path d="M5 21a1 1 0 0 1-1-1v-1a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1zM21 12h1M18.5 4.5 18 5M2 12h1M12 2v1M4.9 4.9l.7.7M12 12v6"/></symbol>
+  <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><path d="M8.1 8.1 12 12M20 4 8.1 15.9"/><circle cx="6" cy="18" r="3"/><path d="M14.8 14.8 20 20"/></symbol>
+  <symbol id="i-bed" viewBox="0 0 24 24"><path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/></symbol>
+  <symbol id="i-tv" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="15" rx="2"/><path d="m17 2-5 5-5-5"/></symbol>
+  <symbol id="i-flask" viewBox="0 0 24 24"><path d="M10 2v7.5L4.5 19a2 2 0 0 0 1.7 3h11.6a2 2 0 0 0 1.7-3L14 9.5V2M8.5 2h7M7 16h10"/></symbol>
+  <symbol id="i-hospital" viewBox="0 0 24 24"><path d="M12 6v4M10 8h4M14 14h-4M14 18h-4"/><path d="M18 12h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2"/><path d="M18 22V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v18"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-venus" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M12 15v7M9 19h6"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></symbol>
+  <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2M9 14l2 2 4-4"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5S12.5 5 12 2.5c-.5 2.5-2 4.9-4 6.5S5 13 5 15a7 7 0 0 0 7 7z"/></symbol>
+  <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z"/><path d="M3.2 12H9l.5-1 2 4.5 2-7 1.5 3.5h5.3"/></symbol>
+  <symbol id="i-sunrise" viewBox="0 0 24 24"><path d="M12 2v8M4.9 10.9l1.4 1.4M2 18h2M20 18h2M17.7 12.3l1.4-1.4M22 22H2M8 6l4-4 4 4M16 18a4 4 0 0 0-8 0"/></symbol>
+  <symbol id="i-sunset" viewBox="0 0 24 24"><path d="M12 10V2M4.9 10.9l1.4 1.4M2 18h2M20 18h2M17.7 12.3l1.4-1.4M22 22H2M16 6l-4 4-4-4M16 18a4 4 0 0 0-8 0"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+  <symbol id="i-youtube" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3z"/></symbol>
+  <symbol id="i-zoom" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4M11 8v6M8 11h6"/></symbol>
+  <symbol id="i-motherbaby" viewBox="0 0 64 64"><path d="M30 14a7 7 0 1 1 0 .01"/><path d="M23 54c-3-9-1-19 6-25 4-3 9-3 12 1 3 4 2 9-2 12"/><path d="M39 42c-5 2-10 0-12-4"/><path d="M41 30c6 1 10 7 10 14 0 8-6 14-14 14H24"/><circle cx="36" cy="38" r="4.5"/></symbol>
+</svg>
+<a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+<!-- Main header -->
+<header class="site-header">
+  <div class="container">
+    <div class="row g-2 align-items-center flex-nowrap">
+      <!-- brand (left) · links (centred in the space between) · actions (pushed right) -->
+      <div class="col lg:col-auto header-side"><a class="brand" href="index.html" aria-label="Rayate Hospital — home" data-i18n-attr="aria-label:brand.home">
+      <img src="assets/img/logo.svg" width="40" height="40" alt="">
+      <span><b data-i18n="brand.name">Rayate Hospital</b><small data-i18n="brand.sub">&amp; Maternity Home · Nashik</small></span>
+    </a></div>
+      <nav class="lg:col d-none lg:d-flex hnav" aria-label="Main menu" data-i18n-attr="aria-label:nav.main">
+        <a class="hnav-link" href="index.html" data-i18n="nav.home">Home</a>
+        <a class="hnav-link" href="about.html" data-i18n="nav.about">About</a>
+        <a class="hnav-link" href="doctors.html" data-i18n="nav.doctors">Doctors</a>
+        <a class="hnav-link" href="services.html" data-i18n="nav.services">Services</a>
+        <a class="hnav-link" href="gallery.html" data-i18n="nav.gallery">Gallery</a>
+        <a class="hnav-link" href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="col-auto header-side">
+        <div class="actions header-actions">
+          <div class="lang-toggle d-none sm:d-inline-flex" role="group" aria-label="Choose language" data-i18n-attr="aria-label:aria.lang">
+        <button type="button" data-lang="mr" aria-pressed="false" lang="mr">मराठी</button>
+        <button type="button" data-lang="en" aria-pressed="true" lang="en">EN</button>
+      </div>
+          <button type="button" class="circle theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Switch dark / light mode" title="Switch dark / light mode" data-i18n-attr="aria-label:aria.theme;title:aria.theme"><svg class="icon i-moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg><svg class="icon i-sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg></button>
+          <button type="button" class="btn-main sm d-none md:d-inline-flex" data-book><span class="lbl" data-i18n="btn.book">Book Appointment</span><span class="ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg></span></button>
+          <button type="button" class="circle lg:d-none" data-menu-open aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu" data-i18n-attr="aria-label:aria.menu"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<dialog class="mobile-menu" id="mobileMenu" aria-labelledby="mobileMenuTitle">
+  <div class="menu-card menu-head">
+    <a class="brand" href="index.html" aria-label="Rayate Hospital — home" data-i18n-attr="aria-label:brand.home" id="mobileMenuTitle">
+      <img src="assets/img/logo.svg" width="40" height="40" alt="">
+      <span><b data-i18n="brand.name">Rayate Hospital</b><small data-i18n="brand.sub">&amp; Maternity Home · Nashik</small></span>
+    </a>
+    <button type="button" class="circle" data-close aria-label="Close" data-i18n-attr="aria-label:aria.close"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <nav class="menu-card" aria-label="Main menu" data-i18n-attr="aria-label:nav.main">
+    <ul>
+      <li><a href="index.html"><span data-i18n="nav.home">Home</span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+      <li><a href="about.html"><span data-i18n="nav.about">About</span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+      <li><a href="doctors.html"><span data-i18n="nav.doctors">Doctors</span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+      <li><a href="services.html"><span data-i18n="nav.services">Services</span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+      <li><a href="gallery.html"><span data-i18n="nav.gallery">Gallery</span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+      <li><a href="contact.html"><span data-i18n="nav.contact">Contact</span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+    </ul>
+  </nav>
+  <div class="menu-card menu-foot">
+    <div class="menu-row"><div class="lang-toggle" role="group" aria-label="Choose language" data-i18n-attr="aria-label:aria.lang">
+        <button type="button" data-lang="mr" aria-pressed="false" lang="mr">मराठी</button>
+        <button type="button" data-lang="en" aria-pressed="true" lang="en">EN</button>
+      </div><button type="button" class="circle theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Switch dark / light mode" title="Switch dark / light mode" data-i18n-attr="aria-label:aria.theme;title:aria.theme"><svg class="icon i-moon" aria-hidden="true" focusable="false"><use href="#i-moon"/></svg><svg class="icon i-sun" aria-hidden="true" focusable="false"><use href="#i-sun"/></svg></button></div>
+    <button type="button" class="btn-main" data-book><span class="lbl" data-i18n="btn.book">Book Appointment</span><span class="ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg></span></button>
+    <a class="btn-ghost" href="tel:+918605332363"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg><span data-i18n="btn.call">Call Now</span> · 86053 32363</a>
+  </div>
+</dialog>
+
+<main id="main" tabindex="-1">
+
+  <section class="sec page-hero not-found">
+    <div class="pattern" aria-hidden="true"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="lg:col-8 text-center" style="padding-block:clamp(24px,6vw,80px)">
+          <div class="nf-code" aria-hidden="true">404</div>
+          <h1 class="h-sec" style="margin-bottom:16px" data-i18n="nf.title">Oops! This page wasn't found.</h1>
+          <p style="color:var(--ink2);font-size:1.0625rem;margin:0 auto 30px;max-width:520px" data-i18n="nf.d">The link may have changed — but don't worry, we're still right here.</p>
+          <div class="btn-row" style="justify-content:center">
+            <a class="btn-main" href="index.html"><span data-i18n="nf.home">Go to home page</span><span class="ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg></span></a>
+            <a class="call-link" href="tel:+918605332363"><span class="circle"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg></span>86053 32363</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-5">
+      <div class="lg:col-4">
+        <a class="brand" href="index.html" aria-label="Rayate Hospital — home" data-i18n-attr="aria-label:brand.home">
+      <img src="assets/img/logo.svg" width="40" height="40" alt="">
+      <span><b data-i18n="brand.name">Rayate Hospital</b><small data-i18n="brand.sub">&amp; Maternity Home · Nashik</small></span>
+    </a>
+        <p class="f-tag" data-i18n="tagline">Every Life Matters</p>
+        <p style="color:var(--ink2);font-size:.9375rem;max-width:340px" data-i18n="ft.about">Family-run maternity and family care in Nashik for over 15 years — now in a new building.</p>
+        <h4 style="margin-top:22px" data-i18n="ft.follow">Follow us</h4>
+        <div class="socials">
+          <a class="soc soc-facebook" href="https://www.facebook.com/RayateHospitalandMaternityHome/" target="_blank" rel="noopener" aria-label="Facebook page (opens in a new tab)" title="Facebook page (opens in a new tab)" data-i18n-attr="aria-label:aria.fb;title:aria.fb"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></a>
+          <a class="soc soc-instagram" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)" title="Instagram (opens in a new tab)" data-i18n-attr="aria-label:aria.ig;title:aria.ig"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-instagram"/></svg></a>
+          <a class="soc soc-x" href="https://x.com/" target="_blank" rel="noopener" aria-label="X / Twitter (opens in a new tab)" title="X / Twitter (opens in a new tab)" data-i18n-attr="aria-label:aria.x;title:aria.x"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></a>
+          <a class="soc soc-youtube" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)" title="YouTube (opens in a new tab)" data-i18n-attr="aria-label:aria.yt;title:aria.yt"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-youtube"/></svg></a>
+          <a class="soc soc-whatsapp" href="https://wa.me/918605332363" data-wa-link target="_blank" rel="noopener" aria-label="Message us on WhatsApp" title="Message us on WhatsApp" data-i18n-attr="aria-label:aria.wa;title:aria.wa"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></a>
+        </div>
+      </div>
+      <div class="col-6 lg:col-2">
+        <h4 data-i18n="ft.links">Quick links</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="doctors.html" data-i18n="nav.doctors">Doctors</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-6 lg:col-3">
+        <h4 data-i18n="ft.services">Services</h4>
+        <ul>
+          <li><a href="services.html" data-i18n="svc.pregnancy">Pregnancy Care</a></li>
+          <li><a href="services.html" data-i18n="svc.delivery">Normal &amp; C-Section Delivery</a></li>
+          <li><a href="services.html" data-i18n="svc.highrisk">High-Risk Pregnancy</a></li>
+          <li><a href="services.html" data-i18n="svc.nicu">NICU / Newborn Care</a></li>
+          <li><a href="services.html" data-i18n="svc.ayurveda">Ayurveda &amp; Family Medicine</a></li>
+        </ul>
+      </div>
+      <div class="lg:col-3">
+        <h4 data-i18n="ft.contact">Contact</h4>
+        <ul>
+          <li><a href="tel:+918605332363"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg> 86053 32363</a></li>
+          <li><a href="tel:+917588569555"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg> 75885 69555</a></li>
+          <li><a href="https://wa.me/918605332363" data-wa-link target="_blank" rel="noopener"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg> WhatsApp</a></li>
+          <li><a href="contact.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg> <span data-i18n="ct.addr.v">Plot No.7, near Parksyde Nest Panchavati, opposite Rasbihari International School, Panchavati, Hanuman Nagar, , Nashik, India, 422003</span></a></li>
+          <li><a href="contact.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg> <span data-i18n="ct.time.e">Emergency: 24/7</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+    <div class="f-big" aria-hidden="true" data-i18n="v2.ft.big">RAYATE</div>
+    <div class="f-bottom">
+      <span>© <span data-year>2026</span> <span data-i18n="ft.rights">Rayate Hospital &amp; Maternity Home. All rights reserved.</span></span>
+      <nav aria-label="Legal" data-i18n-attr="aria-label:ft.legal">
+        <a href="privacy.html" data-i18n="ft.privacy">Privacy Policy</a>
+        <a href="terms.html" data-i18n="ft.terms">Terms of Use</a>
+      </nav>
+    </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="fab-stack">
+  <button type="button" class="fab fab-top" data-to-top aria-label="Back to top" data-i18n-attr="aria-label:aria.top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></button>
+  <a class="fab fab-wa" href="https://wa.me/918605332363" data-wa-link target="_blank" rel="noopener" aria-label="Message us on WhatsApp" data-i18n-attr="aria-label:aria.wa"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></a>
+  <a class="fab fab-call" href="tel:+918605332363" aria-label="Call the hospital" data-i18n-attr="aria-label:aria.callfab"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg></a>
+</div>
+
+<dialog class="dialog appt-dialog dialog-scrollable" id="apptDialog" aria-labelledby="apptTitle">
+  <div class="dialog-header">
+    <div>
+      <span class="badge-open"><span class="dot"></span><span data-i18n="appt.chip">Appointments open</span></span>
+      <h2 id="apptTitle" data-i18n="appt.title">Book an appointment</h2>
+    </div>
+    <button type="button" class="circle" data-close aria-label="Close" data-i18n-attr="aria-label:aria.close"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="dialog-body">
+    <div data-appt="modal">
+    <form class="appt-form" data-appt-form novalidate>
+      <div class="form-grid">
+      
+      <div class="form-field" data-field="name">
+        <label for="m-name"><span data-i18n="f.name">Patient name</span> <span class="req" aria-hidden="true">*</span></label>
+        <input id="m-name" name="name" type="text" autocomplete="name" required aria-required="true" aria-describedby="m-name-err" placeholder="Full name" data-i18n-attr="placeholder:f.name.ph">
+        <span class="field-error" id="m-name-err" aria-live="polite"></span>
+      </div>
+      
+      <div class="form-field" data-field="mobile">
+        <label for="m-mobile"><span data-i18n="f.mobile">Mobile number</span> <span class="req" aria-hidden="true">*</span></label>
+        <input id="m-mobile" name="mobile" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="14" required aria-required="true" aria-describedby="m-mobile-err" placeholder="10-digit mobile number" data-i18n-attr="placeholder:f.mobile.ph">
+        <span class="field-error" id="m-mobile-err" aria-live="polite"></span>
+      </div>
+      
+      <div class="form-field" data-field="doctor">
+        <label for="m-doctor"><span data-i18n="f.doctor">Doctor</span></label>
+        <select id="m-doctor" name="doctor">
+          <option value="" data-i18n="f.doctor.any">Any / please suggest</option>
+          <option value="manoj" data-i18n="f.doctor.manoj">Dr. Manoj Rayate – Gynaecology</option>
+          <option value="priya" data-i18n="f.doctor.priya">Dr. Priya Rayate – Ayurveda &amp; Family Medicine</option>
+        </select>
+        <span class="field-error" id="m-doctor-err" aria-live="polite"></span>
+      </div>
+      
+      <div class="form-field" data-field="visit">
+        <label for="m-visit"><span data-i18n="f.visit">Visit type</span></label>
+        <select id="m-visit" name="visit">
+          <option value="pregnancy" data-i18n="f.visit.preg">Pregnancy check-up</option>
+          <option value="gynae" data-i18n="f.visit.gyn">Gynae consultation</option>
+          <option value="ayurveda" data-i18n="f.visit.ayu">Ayurveda consultation</option>
+          <option value="general" data-i18n="f.visit.gen">General</option>
+          <option value="other" data-i18n="f.visit.other">Other</option>
+        </select>
+        <span class="field-error" id="m-visit-err" aria-live="polite"></span>
+      </div>
+      
+      <div class="form-field" data-field="date">
+        <label for="m-date"><span data-i18n="f.date">Preferred date</span> <span class="req" aria-hidden="true">*</span></label>
+        <input id="m-date" name="date" type="date" required aria-required="true" aria-describedby="m-date-err">
+        <span class="field-error" id="m-date-err" aria-live="polite"></span>
+      </div>
+      <fieldset class="form-field" data-field="slot" style="border:0;padding:0;margin:0;min-width:0">
+        <legend style="margin-bottom:6px"><span data-i18n="f.slot">Preferred time slot</span></legend>
+        <div class="slot-group">
+          <label><input type="radio" name="slot" value="morning" checked><span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sunrise"/></svg><span data-i18n="f.slot.am">Morning</span></span></label>
+          <label><input type="radio" name="slot" value="evening"><span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sunset"/></svg><span data-i18n="f.slot.pm">Evening</span></span></label>
+        </div>
+      </fieldset>
+      
+      <div class="form-field full" data-field="message">
+        <label for="m-message"><span data-i18n="f.msg">Message</span></label>
+        <textarea id="m-message" name="message" rows="3" placeholder="Symptoms or anything we should know (optional)" data-i18n-attr="placeholder:f.msg.ph"></textarea>
+        <span class="field-error" id="m-message-err" aria-live="polite"></span>
+      </div>
+      </div>
+      <button type="submit" class="btn-main"><span data-i18n="f.submit">Send request on WhatsApp</span><span class="ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></span></button>
+      <p class="form-note"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-siren"/></svg><span><span data-i18n="f.emg">For emergencies, call directly:</span> <a href="tel:+918605332363">86053 32363</a></span></p>
+      <p class="form-privacy" data-i18n="f.privacy">Your details are used only to arrange your appointment.</p>
+    </form>
+    <div class="form-success" data-appt-success hidden>
+      <div class="ok"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></div>
+      <h3 tabindex="-1" data-i18n="ok.title">Thank you! Your request is ready.</h3>
+      <p data-i18n="ok.d">WhatsApp has opened — just press send and we'll confirm your time shortly. If it didn't open, use the button below.</p>
+      <div class="btn-row" style="justify-content:center">
+        <a class="btn-main sm" data-wa-again href="#" target="_blank" rel="noopener"><span data-i18n="ok.again">Open WhatsApp again</span><span class="ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></span></a>
+        <button type="button" class="btn-ghost" data-appt-new style="min-height:46px"><span data-i18n="ok.new">New request</span></button>
+      </div>
+    </div>
+  </div>
+  </div>
+</dialog>
+</body>
+</html>
